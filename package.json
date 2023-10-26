@@ -4,15 +4,15 @@
   "description": "Lint and formatting for EV",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "Did you know you CAN run tests on eslint custom rules??"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ElephantVentures/eslint-config-elephantVentures.git"
   },
   "keywords": [
-    "eslint-config",
-    "eslint"
+    "eslint",
+    "eslintplugin"
   ],
   "author": "Alexander Garcia",
   "license": "ISC",

@@ -8,7 +8,7 @@ The start will include some basic community configs. However, my intention is to
 Install eslint per usual then extend this configuration like so:
 ```json
     {
-        "extends": name coming soon here
+        "extends": "name coming soon here"
     }
 ```
 
