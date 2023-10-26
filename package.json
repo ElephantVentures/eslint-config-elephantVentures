@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-elephantventures",
+  "version": "1.0.0",
+  "description": "Lint and formatting for EV",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElephantVentures/eslint-config-elephantVentures.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint"
+  ],
+  "author": "Alexander Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElephantVentures/eslint-config-elephantVentures/issues"
+  },
+  "homepage": "https://github.com/ElephantVentures/eslint-config-elephantVentures#readme",
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
