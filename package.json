@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-elephantventures",
   "version": "1.0.0",
-  "description": "Lint and formatting for EV",
-  "main": "index.cjs",
+  "description": "Lint configuration for EV",
+  "main": "index.js",
   "scripts": {
     "test": "Did you know you CAN run tests on eslint custom rules??",
     "lint": "eslint ."
