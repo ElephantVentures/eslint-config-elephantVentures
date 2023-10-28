@@ -2,9 +2,10 @@
   "name": "eslint-config-elephantventures",
   "version": "1.0.0",
   "description": "Lint and formatting for EV",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
-    "test": "Did you know you CAN run tests on eslint custom rules??"
+    "test": "Did you know you CAN run tests on eslint custom rules??",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,11 @@
   },
   "homepage": "https://github.com/ElephantVentures/eslint-config-elephantVentures#readme",
   "devDependencies": {
-    "eslint": "^8.52.0"
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
-    "eslint": "^8.52.0"
+    "eslint": ">=8.52.0"
   }
 }
