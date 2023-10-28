@@ -17,16 +17,18 @@ Install eslint per usual then extend this configuration like so:
     }
 ```
 
-# Configs used here
+# Configs and Rules used
 Eslint Recommended with some additional rules that can be found [here](https://eslint.org/docs/latest/rules/)  
 React hooks [plugin](https://www.npmjs.com/package/eslint-plugin-react-hooks)  
 Eslint-plugin-react [here](https://www.npmjs.com/package/eslint-plugin-react)  
 
-# Rules
-There are quite a few rules configured, but you can still override them in your individual project if you don't agree with one
+# Overrides
+You can still override any rules in your individual project if you don't agree with one  
+However, keep in mind this is for code consistency so please don't go override crazy
 ```json
     {
         "rules": {
             "max-len": ["error", { "code": 120 }]
         }
+    }
 ```
