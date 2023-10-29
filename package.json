@@ -2,7 +2,7 @@
   "name": "@elephantventures/eslint-base-config",
   "version": "1.0.0",
   "description": "Lint configuration for EV",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "lint": "eslint src"
   },
