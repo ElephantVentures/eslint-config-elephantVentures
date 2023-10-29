@@ -1,11 +1,10 @@
 {
-  "name": "eslint-config-elephantventures",
+  "name": "@elephantventures/eslint-base-config",
   "version": "1.0.0",
   "description": "Lint configuration for EV",
   "main": "index.js",
   "scripts": {
-    "test": "Did you know you CAN run tests on eslint custom rules??",
-    "lint": "eslint ."
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
@@ -21,12 +20,16 @@
     "url": "https://github.com/ElephantVentures/eslint-config-elephantVentures/issues"
   },
   "homepage": "https://github.com/ElephantVentures/eslint-config-elephantVentures#readme",
+  "prettier": "@elephantventures/prettier-config",
   "devDependencies": {
+    "@elephantventures/prettier-config": "^1.0.1",
     "eslint": "^8.52.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3"
   },
   "peerDependencies": {
-    "eslint": ">=8.52.0"
+    "eslint": ">=8.52.0",
+    "prettier": ">= 3.0.0"
   }
 }

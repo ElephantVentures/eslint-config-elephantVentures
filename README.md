@@ -1,14 +1,6 @@
 # Why?
 We have many projects with inconsistent formatting. Hopefully this will create a more uniform style
 
-# Goals
-- [x] - The start will include some basic community configs. However, my intention is to start handling single rules as time permits  
-- [ ] - Detect if end user is using React. If so then add react rules  
-- [ ] - Detect if end user is using typescript. If so then add typescript rules  
-- [ ] - convert this to TS?  
-- [ ] - maybe split rules into smaller sections that following the headings on Eslint docs  
-- [ ] - could add tests... or not...  
-
 # How to use?
 Install eslint per usual then extend this configuration like so:
 ```json
@@ -19,8 +11,11 @@ Install eslint per usual then extend this configuration like so:
 
 # Configs and Rules used
 Eslint Recommended with some additional rules that can be found [here](https://eslint.org/docs/latest/rules/)  
-React hooks [plugin](https://www.npmjs.com/package/eslint-plugin-react-hooks)  
-Eslint-plugin-react [here](https://www.npmjs.com/package/eslint-plugin-react)  
+
+# ESLint Notes
+ESlint will be deprecating formatting rules November 3 [blog](https://eslint.org/blog/2023/10/deprecating-formatting-rules/)  
+ESlint is also changing their configuration format in the next major release v9  
+
 
 # Overrides
 You can still override any rules in your individual project if you don't agree with one  
@@ -28,7 +23,7 @@ However, keep in mind this is for code consistency so please don't go override c
 ```json
     {
         "rules": {
-            "max-len": ["error", { "code": 120 }]
+            "complexity": "off"
         }
     }
 ```
