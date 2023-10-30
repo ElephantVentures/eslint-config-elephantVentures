@@ -9,6 +9,11 @@ module.exports = {
   'dot-notation': 'error',
   eqeqeq: 'error',
   'max-lines': ['error', MAX_LINES],
+  curly: ['error', 'all'],
+  'no-empty-function': 'error',
+  'no-lonely-if': 'error',
+  'no-extra-bind': 'error',
+  'no-confusing-arrow': 'error',
   'no-magic-numbers': ['error', { ignore: [0, 1] }],
   'no-multi-assign': 'error',
   'no-nested-ternary': 'error',
@@ -22,4 +27,5 @@ module.exports = {
   'prefer-const': 'error',
   'require-await': 'error',
   'line-comment-position': ['error', { position: 'above' }],
+  'no-unused-vars': ['error', { args: 'all' }],
 };

@@ -1,5 +1,5 @@
 {
-  "name": "@elephantventures/eslint-base-config",
+  "name": "@elephantventures/eslint-config-base",
   "version": "1.0.0",
   "description": "Lint configuration for EV",
   "main": "./src/index.js",
